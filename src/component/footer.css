@@ -1,3 +1,6 @@
+ @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); 
+
+
 .mainfooter{
     width: 900px;
     height: 400px;
@@ -8,12 +11,43 @@
     
    
 }
-
+.nvv{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    height: 150px;
+    width: 100%;
+    background-color: rgba(250, 174, 186, 0.336);
+    align-items: center;
+}
 .foot-head{
    display: grid;
     grid-template-columns: 500px 300px 300px 100px;
 }
+.box-button1{
+    width: 290px;
+    height: 70px;
+    background-color: orange;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    
+    
+}
+.box-button1 h5{
+    margin-top: 20px;
+    font-family: 'Anton', sans-serif;
+    margin-top: 2px;
+    margin-left: 8px;
+}
+.box-button1 div{
+    /* margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 16px; */
+    margin-top: -14px;
+    font-size: 20px;
+}
 .foot-logo{
     width: 100px;
     height: 100px;

@@ -165,7 +165,7 @@ const Home = () => {
         
             
                             <section className='abc'>
-            <div>
+            <div className='hii'>
             <button className="sam"><FaCalendarAlt /> Book a FREE Trial</button>
             <button className='rrr'>Learn More</button>
 
@@ -181,28 +181,26 @@ const Home = () => {
             
             <a href="https://code.whitehatjr.com/coding/minecraft/trial/register?utm_medium=website&utm_source=website&utm_content=website"><button type="button" className="btn btn-secondary btn-lg">Book A Free Trail</button></a>
         </section>
-        <br />
-        <br />
+       
 
-        <h1 className='dd'> <b>Why Coding for kids</b></h1>
-            
-            
-
-        <section className='seven'>
+        
             
         
-        <div></div>
-            <div className='kk'>
-              <h1>CREATIVITY SCORES AT GENIUS LEVEL</h1>
-              <img src={pic2} alt="Image Container" className='cropped' />
-              
+
+        <section className='seven'>
+        <h2>Why Coding for Kids?</h2>
+        
+            <div className="idiot">
 
 
-            </div>
+            <div></div>
+            <div>
+            <img src={pic2} alt="Image Container" className='cropped' />
+              </div>
             <div className='lefts'>
-            <h4>Your kids can learn logic, structure, sequence and creative expression</h4>
-            <br />
-            <br />
+               <div>
+               <h4>Your kids can learn logic, structure, sequence and creative expression</h4>
+            
             <h3 className='gg'>George Land & Beth Jarman's landmark NASA study identified that kids
                     peak in creativity at age 6, followed by a gradual decline as they
                 grow up.
@@ -211,12 +209,17 @@ const Home = () => {
                 Coding is a fun tool for kids to exercise their desire to build,
                     curiosity to question, imagination to explore - the traits that will serve any child
                     well in nearly any career, in every hobby, and in life.</h3>
-                    <br />
-                    <br />
-                    <br />
-                    <a href="https://code.whitehatjr.com/all/trial/register?utm_source=website&utm_content=website&utm_medium=website"> <button type="button" className="btn btn-secondary btn-lg">Book A Free Trail</button></a>
+                   
+
+               </div>
+
+                <div>
+                <a href="https://code.whitehatjr.com/all/trial/register?utm_source=website&utm_content=website&utm_medium=website"> <button type="button" className="btn btn-secondary btn-lg">Book A Free Trail</button></a>
+                </div>
+                    
             </div>
             <div></div>
+            </div>
         
         </section>
        
@@ -388,7 +391,11 @@ const Home = () => {
 
 <section className='twelve'>
     <div> <p>Want to learn how to create such awesome projects?</p> </div>
-    <div> <a href="https://code.whitehatjr.com/all/trial/register?utm_source=website&utm_content=website&utm_medium=website"> <button type="button" className="btn btn-secondary btn-lg">Book A Free Trail</button></a>
+    <div> <a href="https://code.whitehatjr.com/all/trial/register?utm_source=website&utm_content=website&utm_medium=website"> <div className="box-button1">
+                   
+                   <div><FaCalendarAlt/>  </div> 
+                   <h5 > Book a FREE Trial</h5>
+                </div></a>
  </div>
 </section>
 <br />
@@ -410,88 +417,150 @@ const Home = () => {
     </div>
 
 </section>
+
+
+{/* section15 */}
+
+
+<section className="fifteen">
+ <div className='opp'>
+ <button type="button" className="btn btn-secondary btn-lg"> <h6> Private Batch</h6> </button>
+ 
+<button type="button" className="btn btn-secondary btn-lg">Solo Class </button>
+ </div>
+
+
+
+<div className='opp'>
+  <button type="button" className="btn btn-secondary btn-lg"> <h6>Coding Curriculum</h6></button>
+  </div>
+
+<div className='opp'>
+  
+<button type="button" className="btn btn-secondary btn-lg">Begineer</button>
+<button type="button" className="btn btn-secondary btn-lg">Intermediate</button>
+<button type="button" className="btn btn-secondary btn-lg">Advanced</button>
+<button type="button" className="btn btn-secondary btn-lg">Professional</button>
+</div>
+
+
+<div className='distribute'>
+
+
+
+<div className='start'></div>
+
+
+<div className='second'>
+  <div className='okk'>
+  <h4>Introduction to Coding</h4>  
+<p>8 classes</p>
+  </div>
+
+  <div>
+  <h4>Curriculum Includes</h4> <br />
+<p>Sequence, Fundamentals Coding Blocks, Loops</p> <br />
+<p>View Detailed curriculum</p>
+ 
+  </div>
+
+  <div className='duffer'>
+     
+   <h3>₹ 9,599</h3>
+  <a href="https://code.whitehatjr.com/checkout/68c41f60-bf9f-4ea2-958f-a52454d5c124"><button type="button" className="btn btn-secondary btn-lg">Buy Now</button></a>
+  </div>
+  
+
+
+
+
+</div>
+<div className='second'>
+
+<div className='okk'>
+
+<h4>App Developer Certificate</h4>  <br />
+<p>48 classes</p>
+</div>
+<div>
+<h4>Curriculum Includes</h4> 
+<p>Introduction to Coding</p> 
+<p>Events / UI,Conditionals, Complex Loop,
+    <br /> Logic Structures, Turtle Coding</p>
+
+<br /> 
+<p>view detailed curriculum</p>
+
+
+</div>
+<div className='duffer'>
+<h3>₹ 49,999</h3>
+<a href="https://code.whitehatjr.com/checkout/68c41f60-bf9f-4ea2-958f-a52454d5c124"><button type="button" className="btn btn-secondary btn-lg">Buy Now</button></a>
+</div>
+
+
+
+
+
+</div>
+<div className='second'>
+ <div className='okk'>
+      
+<h4>Artificial Intelligence & Code a Satellite</h4>  <br />
+<p>144 classes</p>
+
+ </div>
+ <div>
+ <h4>Curriculum Includes</h4> 
+<p>Introduction to Coding
+App Developer Certificate</p>
+<p>Extended UI/UX, Rich GUI app, Space Tech simulation Arrays, Databases, APIs, Code satellite sensors.</p> <br />
+<p>View Detailed curriculum</p>
+<br /> 
+ 
+ </div>
+ <div className='duffer'>
+
+ <h3>₹ 135,999</h3>
+ <a href="https://code.whitehatjr.com/checkout/68c41f60-bf9f-4ea2-958f-a52454d5c124"><button type="button" className="btn btn-secondary btn-lg">Buy Now</button></a>
+
+ </div>
+
+
+
+
+
+
+
+</div>
+
+<div className='start'></div>
+
+</div>
+
+
+
+
+
+
+</section>
+
 <section className='forteen'>
    <div>
-   <h5>World’s first of its kind learning pedagogy</h5>
+   <h5> <b>World’s first of its kind learning pedagogy</b> </h5>
   
    <h1>Private Batch vs Solo Class</h1>
+   </div>
+   <div>
    <img src={pic3} alt="Image Container" className='last' />
 
    </div>
 </section>
 <br />
-<br />
-<section className='fifteen'>
-<button type="button" className="btn btn-secondary btn-lg">Private Batch</button>
-<button type="button" className="btn btn-secondary btn-lg">Solo Class </button>
-<br />
-
-
-<button type="button" className="btn btn-secondary btn-lg">Coding Curriculum</button>
-<br />
-
-<button type="button" className="btn btn-secondary btn-lg">Begineer</button>
-<button type="button" className="btn btn-secondary btn-lg">Intermediate</button>
-<button type="button" className="btn btn-secondary btn-lg">Advanced</button>
-<button type="button" className="btn btn-secondary btn-lg">Professional</button>
-<div className='distribute'>
-<div className='start'></div>
-
-
-<div className='second'>
-<h4>Introduction to Coding</h4>  <br />
-<p>8 classes</p>
-<br />
-<h4>Curriculum Includes</h4> <br />
-<p>Sequence, Fundamentals Coding Blocks, Loops</p> <br />
-<p>View Detailed curriculum</p>
-<br /> <br />
-<h3>₹ 9,599</h3> <br />
-<a href="https://code.whitehatjr.com/checkout/68c41f60-bf9f-4ea2-958f-a52454d5c124"><button type="button" className="btn btn-secondary btn-lg">Buy Now</button></a>
 
 
 
-</div>
-<div className='second'>
-<h4>App Developer Certificate</h4>  <br />
-<p>48 classes</p>
-<br />
-<h4>Curriculum Includes</h4> <br />
-<p>Introduction to Coding</p> <br />
-<p>Events / UI,Conditionals, Complex Loop,
-    <br /> Logic Structures, Turtle Coding</p>
 
-<br /> 
-<p>view detailed curriculum</p> <br /> <br />
-<h3>₹ 49,999</h3> <br />
-<a href="https://code.whitehatjr.com/checkout/68c41f60-bf9f-4ea2-958f-a52454d5c124"><button type="button" className="btn btn-secondary btn-lg">Buy Now</button></a>
-
-
-</div>
-<div className='second'>
-<h4>Artificial Intelligence & Code a Satellite</h4>  <br />
-<p>144 classes</p>
-<br />
-<h4>Curriculum Includes</h4> <br />
-<p>Introduction to Coding
-App Developer Certificate</p> <br />
-<p>Extended UI/UX, Rich GUI app, Space Tech simulation Arrays, Databases, APIs, Code satellite sensors.</p> <br />
-<p>View Detailed curriculum</p>
-<br /> <br />
-<h3>₹ 135,999</h3> <br />
-<a href="https://code.whitehatjr.com/checkout/68c41f60-bf9f-4ea2-958f-a52454d5c124"><button type="button" className="btn btn-secondary btn-lg">Buy Now</button></a>
-
-
-</div>
-
-<div className='start'></div>
-
-</div>
-
-
-
-   
-</section>
 <section className='sixteen'>
 <a href="https://code.whitehatjr.com/coding/minecraft/trial/register?utm_medium=website&utm_source=website&utm_content=website"><button type="button" className="btn btn-secondary btn-lg">Book A Free Trail</button></a>
 </section>

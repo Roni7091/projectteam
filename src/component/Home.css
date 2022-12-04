@@ -151,18 +151,7 @@
     margin-top: 100px;
     background-color: aquamarine;
 }
-.seven{
-    
-    /* align-items: center; */
-    display: grid;
-    grid-template-columns: 15% 40% 30% 15%;
-    margin-top: 50px;
-    height: 530px;
-    background-color: bisque;
 
-    /* height: 400px; */
-   
-}
 .cropped{
     height: 400px;
     width: 400px;
@@ -170,13 +159,26 @@
 
 .gg{
     font-size: large;
-    margin-right: 100px;
+   
+}
+.seven{
+    margin-top: 60px;
+    background-color: rgb(227, 232, 232);
 }
 .lefts{
     
-    width: 400px;
-    height: 400px;
-    margin-left: 100px;
+    
+    
+    display: grid;
+    grid-template-rows: 75% 25%;
+    font-family: sans-serif;
+
+}
+
+.idiot{
+    display: grid;
+    grid-template-columns: 20% 30% 35% 15%;
+    margin-top: 40px;
 }
 .eight{
     display: grid;
@@ -188,9 +190,7 @@
     grid-template-columns: 20% 20% 20% 20% 20%;
 
 }
-.mid{
-    background-color: rgb(176, 204, 204);
-}
+
 .logo{
     height: 100px;
     width: 100px;
@@ -244,7 +244,7 @@
 .twelve{
     display: grid;
     grid-template-columns: 70% 30%;
-    background-color: rgb(205, 221, 225);
+    background-color:whitesmoke;
     margin-top: 150px;
     height: 150px;
 }
@@ -255,13 +255,15 @@
 .thirteen{
     display: grid;
     grid-template-columns: 50% 50%;
-    background-color: bisque;
+    background-color: white;
     margin-top: 50px;
+
 
 }
 .edit{
-    height: 450px;
-    width: 500px;
+    height: 350px;
+    width: 530px;
+
 }
 .thirteen>div{
     margin-top: 25px;
@@ -276,11 +278,11 @@
 }
 .forteen{
     margin-top: 150px;
-    background-color: rgb(213, 240, 240);
+    
 }
 .fifteen{
     padding-top: 100px;
-    background-color: rgb(241, 243, 224);
+    
    
 
 }
@@ -289,20 +291,24 @@
 }
 .distribute{
     display: grid;
-    grid-template-columns: 12% 25% 25% 25% 13%;
-    height: 650px;
+    grid-template-columns: 15% 22% 25% 25% 13%;
+    height: 500px;
+    column-gap: 10px;
+    margin-top: 10px;
+    
 }
 .second{
-    border: 1px solid black;
-    padding-left: 30px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: 25% 50% 25%;
     
     
-}
-.sixteen{
-    padding-top: 30px;
-    background-color: rgb(208, 216, 216);
    
+   
+    
+    
 }
+
 .seventeen{
     padding-top: 50px;
 }
@@ -354,7 +360,7 @@ background-repeat: no-repeat;
     width: 100%;
 }
 .twentyone{
-    background-color: rgba(123, 123, 120, 0.852);
+    background-color: rgba(167, 167, 167, 0.852);
     height: 250px;
 }
 .ton{
@@ -432,7 +438,13 @@ background-image: url(https://s3-cdnwhjr.whjr.online/website/desktop/minecraft-b
     margin-left: -175%;
     margin-top: 25%;
     font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    padding-top: 8px;
 
+
+}
+.hii{
+    margin-right: 150px;
 }
 
 .rrr {
@@ -441,6 +453,53 @@ background-image: url(https://s3-cdnwhjr.whjr.online/website/desktop/minecraft-b
     color: white;
     height: 50px;
     width: 160px;
-    margin-left: 2%;
+   margin-left: 2%;
+    font-size: 20px;
+    padding-top: 8px;
+}
+
+.opp{
+    margin-top: -80px;
+    cursor: pointer;
+    
+
+}
+.opp:hover{
+    display: block;
+}
+.okk{
+    background-color: rgb(249, 231, 208);
+    height: 120px;
+   
+   
+   
+}
+.duffer{
+    background-color: rgb(246, 254, 254);
+}
+
+.box-button1{
+    width: 290px;
+    height: 70px;
+    background-color: orange;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+}
+.box-button1 h5{
+    margin-top: 20px;
+    font-family: 'Anton', sans-serif;
+    margin-top: 2px;
+    margin-left: 8px;
+}
+.box-button1 div{
+    /* margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 16px; */
+    margin-top: -14px;
     font-size: 20px;
 }

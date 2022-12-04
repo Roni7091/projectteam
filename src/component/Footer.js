@@ -7,11 +7,24 @@ import footlogo from "../component/images/whitehat-jr-logo.jpg";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
 import { AiFillPlayCircle } from "react-icons/ai";
 import { AiFillTwitterCircle } from "react-icons/ai";
+import { FaCalendarAlt } from 'react-icons/fa';
 
 const Footer = () => {
   return (
     <>
+      <div className="nvv">
+             
+              <h4><b>WhiteHat Jr is the top coding learning platform for young minds.</b> </h4>
+            
+             <div className="box-button1">
+                   
+                   <div><FaCalendarAlt/>  </div> 
+                   <h5 > Book a FREE Trial</h5>
+                </div>
+        </div>
       <div className="mainfooter">
+        
+       
         <div className="foot-img">
           <img className="foot-logo" src={footlogo} alt="" />
         </div>
@@ -19,13 +32,7 @@ const Footer = () => {
         <div className="foot-head">
           <div>
             <p className="ptext">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptates unde eius ipsa alias ut enim illum, voluptatem
-              molestiae, deleniti sequi quos sunt quod corrupti ducimus dolores
-              molestias, recusandae quis libero! Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Quos assumenda nobis iusto voluptate
-              nihil inventore nulla dignissimos. Quas expedita voluptates eum
-              exercitationem illo a, ea obcaecati rerum minima excepturi atque.
+            Do you want your child to create the world’s next big tech platform? WhiteHat Jr's mission is to empower a whole generation to become creators versus consumers of technology. We teach fundamentals of coding--logic, structure, sequence and algorithmic thinking to enable kids to generate creative outcomes like websites, animations and apps.
             </p>
             <div className="foot-icon">
               <a href="">
