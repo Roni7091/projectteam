@@ -157,13 +157,12 @@
     width: 400px;
 }
 
-.gg{
-    font-size: large;
-   
-}
 .seven{
     margin-top: 60px;
     background-color: rgb(227, 232, 232);
+}
+.abb{
+    display: grid;
 }
 .lefts{
     
@@ -183,7 +182,9 @@
 .eight{
     display: grid;
     grid-template-columns: 20% 60% 20%;
-    padding-top: 100px;    
+    padding-top: 100px;
+    background-color: rgb(247, 244, 239); 
+    height: 350px;   
 }
 .midlogo{
     display: grid;
@@ -219,15 +220,88 @@
 .ten{
     margin-top: 150px;
     display: grid;
-    grid-template-columns: 50% 50%;
-    background-color: rgb(165, 238, 238);
+    grid-template-columns: 60% 40%;
+    background-image: url(https://www.whitehatjr.com/images/video-popup/saira-bg.png);
+    height: 500px;
 }
-.twos{
-    margin-left: 100px;
-}
+
 .ones{
-    margin-right: 80px;
+   display: grid;
+   grid-template-rows: 50% 40% 10% ;
+   color: white;
 }
+.nischal{
+    margin-top: 100px;
+}
+.box-button2{
+    width: 290px;
+    height: 70px;
+    background-color: orange;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 30px;
+
+    
+}
+.uu{
+    margin-right: 185px;
+}
+.box-button2 h5{
+    margin-top: 20px;
+    font-family: 'Anton', sans-serif;
+    margin-top: 2px;
+    margin-left: 8px;
+}
+.box-button2 div{
+    
+    margin-top: -14px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .eleven{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
@@ -502,4 +576,29 @@ background-image: url(https://s3-cdnwhjr.whjr.online/website/desktop/minecraft-b
     margin-top: 16px; */
     margin-top: -14px;
     font-size: 20px;
+}
+.aav1{
+    display: grid;
+    grid-template-columns: 15% 35% 35% 15%;
+    height: 400px;
+    margin-top: 25px;
+    
+
+}
+.aav12{
+    
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.aav5{
+    height: 400px;
+    width: 450px;
+}
+.aav3{
+    display: grid;
+    grid-template-rows: 65% 20% 15%;
+}
+.aav55{
+    margin-top: -10px;
 }

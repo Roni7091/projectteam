@@ -5,7 +5,9 @@ import pic3 from '../Assets/last.png';
 import pic4 from '../Assets/last1.png';
 import pic5 from '../Assets/last2.png';
 import pic6 from '../Assets/last3.png';
+import pic9 from '../Assets/last6.png';
 import { FaCalendarAlt } from 'react-icons/fa';
+import { FiPlayCircle } from 'react-icons/fi';
 
 
 import topimage from "../component/images/hero-image.png";
@@ -201,21 +203,29 @@ const Home = () => {
                <div>
                <h4>Your kids can learn logic, structure, sequence and creative expression</h4>
             
-            <h3 className='gg'>George Land & Beth Jarman's landmark NASA study identified that kids
+            <h5 className='gg'>George Land & Beth Jarman's landmark NASA study identified that kids
                     peak in creativity at age 6, followed by a gradual decline as they
                 grow up.
                     <br />
                 The real promise of coding is not that kids will become computer engineers.
                 Coding is a fun tool for kids to exercise their desire to build,
                     curiosity to question, imagination to explore - the traits that will serve any child
-                    well in nearly any career, in every hobby, and in life.</h3>
+                    well in nearly any career, in every hobby, and in life.</h5>
                    
 
                </div>
 
-                <div>
-                <a href="https://code.whitehatjr.com/all/trial/register?utm_source=website&utm_content=website&utm_medium=website"> <button type="button" className="btn btn-secondary btn-lg">Book A Free Trail</button></a>
+               <div >
+                    <a href="https://code.whitehatjr.com/all/trial/register?utm_source=website&utm_content=website&utm_medium=website"> 
+                    <div className="box-button2">
+                   
+                   <div><FaCalendarAlt/>  </div> 
+                   <h5 > Book a FREE Trial</h5>
+                   </div>
+                   </a>
                 </div>
+                
+               
                     
             </div>
             <div></div>
@@ -301,22 +311,34 @@ const Home = () => {
        
 <section className='ten'>
     <div className='twos'>
-        <img className='slide' src="https://s3-cdnwhjr.whjr.online/website/desktop/whjr-champions-desktop/mae-1x.png" alt="" />
+        
        
     </div>
                 <div className='ones'>
-                    <br />
-                    <br />
-                     <h2>
+                     <div className='nischal'>
+                     <h2 className='uu'>
                     
-                Saira’s video, Age 9, <br />
-                WhiteHat Jr Coder</h2>
+                    Saira’s video, Age 9, <br />
+                    WhiteHat Jr Coder</h2>
+                            <br />
+                        
+                          
+                        <p>Watch how coding with WhiteHat Jr helped Saira get better at Math.</p>
                         <br />
-                    <br />
-                        <br />
-                    <p>Watch how coding with WhiteHat Jr helped Saira get better at Math.</p>
-                    <br /><br />
-                    <a href="https://code.whitehatjr.com/all/trial/register?utm_source=website&utm_content=website&utm_medium=website"> <button type="button" className="btn btn-secondary btn-lg">Book A Free Trail</button></a>
+                     </div>
+                    <div >
+                    <a href="https://code.whitehatjr.com/all/trial/register?utm_source=website&utm_content=website&utm_medium=website"> 
+                    <div className="box-button2">
+                   
+                   <div><FaCalendarAlt/>  </div> 
+                   <h5 > Book a FREE Trial</h5>
+                </div>
+                    
+                    
+                    </a>
+                    </div>
+                  
+                   
 
 
             </div>
@@ -399,22 +421,63 @@ const Home = () => {
  </div>
 </section>
 <br />
-<br />
-<h1><b>Our Expert Coding Educators</b></h1>
-<section className='thirteen'>
 
-    <div>
-        <img className='edit' src="https://s3-cdnwhjr.whjr.online/website/desktop/teacher-process-2x.png" alt="" />
-    </div>
-    <div>
-        <h1>Top 1% teachers selected by an industry-leading 4-step teacher assessment process by top 1% of early childhood coding experts</h1>
-        <br />
-        <p>WhiteHat Jr follows a rigorous 4-Step Selection Process for confirming teacher candidates so your children are taught by the Top Early Childhood Coding Experts.</p>
-        <br /><br />
-        <a href="https://www.whitehatjr.com/live-teacher-dashboard"> <button type="button" className="btn btn-secondary btn-lg">View Live Comment</button></a>
-        <a href="https://code.whitehatjr.com/all/trial/register?utm_source=website&utm_content=website&utm_medium=website"> <button type="button" className="btn btn-secondary btn-lg">Book A Free Trail</button></a>
-    
-    </div>
+
+
+{/* section 13 */}
+
+<section className='aav'>
+
+        <h2>Our Expert Coding Educators</h2>
+        
+
+        <div className='aav1'>
+         <div></div>
+         <div className='aav2'>
+         <img src={pic9} alt="Image Container" className='aav5' />
+
+
+         </div>
+         <div className='aav3'>
+             <div>
+                   <h3>
+                   Top 1% teachers selected by an industry-leading 4-step teacher assessment process by top 1% of early childhood coding experts.
+                   </h3>
+                   <br />
+                    <p><b>WhiteHat Jr follows a rigorous 4-Step Selection Process for confirming teacher candidates so your children are taught by the Top Early Childhood Coding Experts.</b></p>
+             </div>
+             <div className='aav12'>
+             <div className="box-button">
+                   
+                   <div className='aav55'><FiPlayCircle />  </div> 
+                   <h5 > Book a FREE Trial</h5>
+                </div>
+                <div className="box-button">
+                   
+                   <div className='aav55'><FaCalendarAlt/>  </div> 
+                   <h5 > Book a FREE Trial</h5>
+                  
+                  
+                </div>
+               
+
+                
+             </div>
+
+
+             <div>
+                <h6> <b>4.7+ out of 5</b> stars from 8.6k+ reviews by our students</h6>
+                </div>
+
+
+
+         </div>
+         <div></div>
+
+
+
+        </div>
+   
 
 </section>
 

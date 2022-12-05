@@ -16,11 +16,13 @@ const Footer = () => {
              
               <h4><b>WhiteHat Jr is the top coding learning platform for young minds.</b> </h4>
             
+             <a href="https://code.whitehatjr.com/all/trial/register?utm_source=website&utm_content=website&utm_medium=website">
              <div className="box-button1">
                    
                    <div><FaCalendarAlt/>  </div> 
                    <h5 > Book a FREE Trial</h5>
                 </div>
+             </a>
         </div>
       <div className="mainfooter">
         
@@ -35,16 +37,16 @@ const Footer = () => {
             Do you want your child to create the world’s next big tech platform? WhiteHat Jr's mission is to empower a whole generation to become creators versus consumers of technology. We teach fundamentals of coding--logic, structure, sequence and algorithmic thinking to enable kids to generate creative outcomes like websites, animations and apps.
             </p>
             <div className="foot-icon">
-              <a href="">
+              <a href="https://www.facebook.com">
                 <BsFacebook />
               </a>
-              <a href="">
+              <a href="https://twitter.com">
                 <AiFillTwitterCircle />
               </a>
-              <a href="">
+              <a href="https://www.youtube.com">
                 <AiFillPlayCircle />
               </a>
-              <a href="">
+              <a href="https://www.linkedin.com">
                 <TiSocialLinkedinCircular />
               </a>
             </div>
@@ -54,19 +56,19 @@ const Footer = () => {
             <ul>
               <h6>Links</h6>
               <li>
-                <a href="">Teacher login</a>
+                <a href=" https://code.whitehatjr.com/t/login">Teacher Login</a>
               </li>
               <li>
-                <a href="">Student Login</a>
+                <a href=" https://code.whitehatjr.com/s/login">Student Login</a>
               </li>
               <li>
-                <a href="">Register</a>
+                <a href="https://code.whitehatjr.com/trial/register?utm_source=website&utm_content=website&utm_medium=website">Register</a>
               </li>
               <li>
-                <a href="">space explorer programmer</a>
+                <a href="   https://www.whitehatjr.com/space-explorer-program">Space Explorer Programmer</a>
               </li>
               <li>
-                <a href="">Byjus Future School</a>
+                <a href="https://www.byjusfutureschool.com/">Byjus Future School</a>
               </li>
             </ul>
           </div>
@@ -75,24 +77,24 @@ const Footer = () => {
             <ul>
               <h6>More</h6>
               <li>
-                <a href="">terms& condition</a>
+                <a href=" https://code.whitehatjr.com/terms-conditions">Terms & Condition</a>
               </li>
               <li>
-                <a href="">privacy policy</a>
+                <a href="https://code.whitehatjr.com/privacy-policy">Privacy Policy</a>
               </li>
               <li>
-                <a href="">Complaint Redressal</a>
+                <a href="https://www.whitehatjr.com/complaint-redressal">Complaint Redressal</a>
               </li>
               <li>
-                <a href="">Fulfillment Policy</a>
+                <a href="  https://www.whitehatjr.com/fulfillment-refund-policy">Fulfillment Policy</a>
               </li>
               <li>
-                <a href="">Apply For Teacher Role</a>
+                <a href="https://www.whitehatjrteachers.com/?utm_source=website&utm_content=website&utm_medium=website">Apply For Teacher Role</a>
               </li>
             </ul>
           </div>
         </div>
-
+          <br />
         <h6>*
 Some of the WhiteHat Jr classes are powered by Code.org which is completely free to access.</h6>
 
@@ -124,6 +126,11 @@ Some of the WhiteHat Jr classes are powered by Code.org which is completely free
           If you are a motivated parent and passionate about technology and where it can lead you to, then Join now. If you or your child would like to find out more about the opportunities provided by our coding programs, explore the kids programming courses offered by WhiteHat Jr and consider enrolling for a free trial. Remember, no coding experience beforehand is required.
           </p>
         </div>
+      
+
+      <div className="jjj">
+        <p>Copyright WhiteHat Education Technology Pvt ltd © 2022. All Rights Reserved</p>
+      </div>
       </div>
     </>
   );
