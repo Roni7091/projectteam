@@ -16,7 +16,10 @@
       font-size: 12px;
     
   }
-  
+  .last3-img{
+    height: 400px;
+    width: 400px;
+  }
   .container .box{
       width: 300px;
       height: 250px;
@@ -305,7 +308,7 @@
 .eleven{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    background-color: grey;
+    background-color: rgb(235, 243, 243);
     column-gap: 15px;
 }
 .part{
@@ -602,3 +605,84 @@ background-image: url(https://s3-cdnwhjr.whjr.online/website/desktop/minecraft-b
 .aav55{
     margin-top: -10px;
 }
+
+.sec-four{
+   
+    width: 100%;
+    height: 600px;
+  }
+
+  .sec-four-main{
+    display: grid;
+    grid-template-columns: 260px 260px 260px 260px 260px;
+  }
+
+  .fcard{
+    width: 230px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+  }
+
+  .fcard img{
+    width: 230px;
+    height: 150px;
+  }
+
+  .f-ptag{
+   text-align: justify;
+   margin-top: 20px;
+   padding: 10px;
+
+  }
+
+  .f-ptag h3{
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+  
+  }
+  .f-ptag p{
+    font-size: 8px;
+     margin-top: 30px;
+     color: gray;
+  
+  }
+
+  
+
+
+  .four-btn{
+    width: 200px;
+    height: 35px;
+    background-color: rgb(255, 153, 0);
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    font-family: 'Secular One', sans-serif;
+    margin-left: 420px;
+  }
+
+  .four-btn h2{
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: 10px;
+    color: #fff;
+  }
+
+  .four-head{
+   margin-left: 330px;
+   color: rgb(5, 5, 5);
+   width: 500px;
+   height: 100px
+  }
+
+  .four-head h1{
+    font-size: 27px;
+    font-weight: bold;
+  }
